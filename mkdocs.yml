@@ -37,7 +37,7 @@ extra:
       link: ../feed_rss_created.xml
       name: Feed RSS
     - icon: fontawesome/solid/file-pdf
-      link: ../MaterialMkDocs-gb.pdf
+      link: ../ODS_Mkdocs-Material.pdf
       name: Scarica il file PDF
  # analytics:
  #   provider: google
@@ -96,7 +96,7 @@ plugins:
     enumerate_figures: true
     add_cover_page: true
     cover_page_template: "docs/pdf/cover_page.tpl"
-    path_to_pdf: "ODS-Mkdocs-Material.pdf"
+    path_to_pdf: "ODS_Mkdocs-Material.pdf"
     exclude:
         
 - rss:
