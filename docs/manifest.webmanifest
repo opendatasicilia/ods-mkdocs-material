@@ -1,0 +1,10 @@
+{
+    "name": "MaterialMkDocs-gb",
+    "short_name": "MaterialMkDocs-gb",
+    "start_url": "https://gbvitrano.github.io/MaterialMkDocs-gb/",
+    "display": "standalone",
+    "background_color": "#fff",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+    "lang": "it-IT",
+    "theme_color": "white"
+}

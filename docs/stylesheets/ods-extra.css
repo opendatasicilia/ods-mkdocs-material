@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+/* forza il back to top a tornare in basso */
+.md-top {
+    background: var(--md-primary-fg-color)!important; 
+    border-radius: 100%!important; 
+    bottom: .4rem!important; 
+    box-shadow: 0 0.2rem 0.5rem rgb(0 0 0 / 10%), 0 0.025rem 0.05rem rgb(0 0 0 / 10%)!important; 
+    color: var(--md-primary-bg-color)!important; 
+    float: right!important; 
+    margin: -2.8rem .4rem .4rem!important; 
+    outline: none!important; 
+    padding: .4rem!important; 
+    position: -webkit-sticky!important; 
+    position: sticky!important; 
+    transform: translateY(0)!important; 
+    transition: opacity 125ms,transform 125ms cubic-bezier(.4,0,.2,1),background-color 125ms!important; 
+    z-index: 1!important; 
+	font-size: 0px!important; 
+}
+/* gbvitrano per opendatasicilia*/
+
+/* errore 404 centra immagine nella pagina */
+.centerimg {
+  /*display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  color: #fff;*/
+  padding-top: 6.5rem;
+  padding-bottom: 3rem;
+  text-align: center;
+  background-image:url(../img/404.gif);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: contain;
+  height: 480px;} 
