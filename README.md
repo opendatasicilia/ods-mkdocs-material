@@ -1,5 +1,7 @@
-# OpenDataSicilia Mkdocs-Material
+# OpenDataSicilia Mkdocs-Material repo demo
 
-### Compilazione con [GitHub ghpages](https://squidfunk.github.io/mkdocs-material/publishing-your-site/#with-github-actions) | [OpenDataSicilia Mkdocs-Material](#)
+[![logo ods](docs/img/logo.png)](http://opendatasicilia.it/)
+
+### Compilazione con [GitHub ghpages](https://squidfunk.github.io/mkdocs-material/publishing-your-site/#with-github-actions) | [OpenDataSicilia Mkdocs-Material](https://opendatasicilia.github.io/ods-mkdocs-material/)
 
 
