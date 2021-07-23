@@ -1,5 +1,5 @@
 ---
-title: OpenDataSicilia Mkdocs-Material
+title: OpenDataSicilia Mkdocs-Material repo demo
 hide:
   - navigation
   - toc
