@@ -73,8 +73,9 @@ theme:
     code: Roboto Mono
   favicon: img/favicon.ico
   icon:
+    repo: fontawesome/brands/github
   logo: img/logo.png
-
+   
 plugins:
 - search
 - mkdocstrings
@@ -97,7 +98,7 @@ plugins:
     cover_page_template: "docs/pdf/cover_page.tpl"
     path_to_pdf: "ODS-Mkdocs-Material.pdf"
     exclude:
-        - index.md
+        
 - rss:
     abstract_chars_count: 160
     date_from_meta:
