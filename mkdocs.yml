@@ -9,7 +9,7 @@ repo_url: https://github.com/opendatasicilia/ods-mkdocs-material
 edit_uri: edit/main/docs/ #disables edit button
 
 # Copyright
-copyright: <a href="https://opendatasicilia.github.io/ods-mkdocs-material/privacy/" title="Informativa privacy estesa" target="_parent">Privacy</a> | <a href="https://creativecommons.org/licenses/by-sa/4.0/" title="Se non specificato diversamente, tutti i contenuti sono soggetti alla licenza Creative Commons Attribution-ShareAlike 4.0 licence (CC BY-SA)" target="_blank" class="link-dark text-decoration-none">CC-BY-SA-4.0</a>
+copyright: <a href="https://opendatasicilia.github.io/ods-mkdocs-material/privacy/" title="Informativa privacy estesa">Privacy</a> | <a href="https://creativecommons.org/licenses/by-sa/4.0/" title="Se non specificato diversamente, tutti i contenuti sono soggetti alla licenza Creative Commons Attribution-ShareAlike 4.0 licence (CC BY-SA)" target="_blank" class="link-dark text-decoration-none">CC-BY-SA-4.0</a>
 
 ## Social Media
 extra:
@@ -155,30 +155,25 @@ extra_css:
 ## Page tree
 nav:
     - Home: index.md
+    
+    - Installazione:
+        - Insta 1: Installazione/insta1.md
+        - Insta 2:
+            -  Insta 2.1: Installazione/insta2_1.md
+            -  Insta 2.2: Installazione/insta2_2.md   
+        - Insta 3: Installazione/insta3.md 
+            
+    - Configurazione:
+        - Congf 1: Configurazione/conf1.md
+        - Congf 2: Configurazione/conf2.md
+            
+    - Riferimenti:
+        - Rifer 1: Riferimenti/rifer1.md
+        - Rifer 2:
+            - Rifer 2.1: Riferimenti/rifer2_1.md
+            - Rifer 2.2: Riferimenti/rifer2_2.md 
+            - Rifer 2.3: Riferimenti/rifer3_3.md 
         
-    - Uno:
-        - bla bla: bla1.md
-        - bla bla:
-            - bla bla: bla.md
-            - bla bla: bla.md   
-        - bla bla: bla.md
-        - bla bla: bla.md        
-    
-    - Due:
-        - bla bla: bla2.md
-        - bla bla:
-            - bla bla: bla.md
-            - bla bla: bla.md   
-        - bla bla: bla.md
-        - bla bla: bla.md      
-    
-    - Tre:
-        - bla bla: bla3.md
-        - bla bla:
-            - bla bla: bla.md
-            - bla bla: bla.md   
-        - bla bla: bla.md
-        - bla bla: bla.md 
     - About:
         - OpenDataSicilis: ods.md 
   
