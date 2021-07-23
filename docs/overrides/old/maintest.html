@@ -1,10 +1,15 @@
 <!-- Elements added to main will be displayed on all pages -->
+
+
+{% if page and page.meta and page.meta.tags %}
+    {% set tags = page.meta.tags %}
+{% endif %}
+
 {% extends "base.html" %}
 
 {% block libs %}
  <!-- Qui Script header) --> 
  <link href="../stylesheets/jquery-eu-cookie-law-popup.css" rel="stylesheet" type="text/css"/>
- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
  <!-- Qui Script footer) --> 
 
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
@@ -16,7 +21,7 @@
     $(function() {
       $("body").prognroll({
         height: 4, //Progress bar height in pixels
-        color: "#ff0000", //Progress bar background color
+        color: "#589632", //Progress bar background color
       });
     });
 </script> 
@@ -26,49 +31,30 @@
 {% endblock %}
 
 <!-- blocco meta tag e social -->
-{% block extrahead %} 
-	   <!-- Social card full site twetter -->	 
+{% block extrahead %}
   {% set title = config.site_name %}
-    {% if page and page.meta and page.meta.title %}
+  {% if page and page.meta and page.meta.title %}
     {% set title = title ~ " - " ~ page.meta.title %}
   {% elif page and page.title and not page.is_homepage %}
     {% set title = title ~ " - " ~ page.title | striptags %}
-	 {% endif %}
- <!-- twitter --> 
-  <meta property="twitter:image" content="{{ config.site_url}}img/card_social_site.png" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="{{ config.site_url }}"/>
-  <meta name="twitter:creator" content="Giovan Battista Vitrano" />
-  <meta name="twitter:title" content="{{ title }}" />
-  <meta name="twitter:description" content="{{ config.site_description }}" />	  
-  <!-- facebook single page -->
-  {% if page and page.meta and page.meta.social_image %}
- <meta property="og:image" content="{{ config.site_url ~ page.meta.social_image }}" />
- {% endif %}
-
-
-
-	   <!-- Social card full  site facebook-->	 
-  {% set title = config.site_name %}
-    {% if page and page.meta and page.meta.title %}
-    {% set title = title ~ " - " ~ page.meta.title %}
-  {% elif page and page.title and not page.is_homepage %}
-    {% set title = title ~ " - " ~ page.title | striptags %}
-	 {% endif %}
+  {% endif %}
  <!-- facebook -->
   <meta property="og:type" content="website" />
   <meta property="og:title" content="{{ title }}" />
   <meta property="og:description" content="{{ config.site_description }}" />
   <meta property="og:url" content="{{ page.canonical_url }}" />
-  <meta property="og:image" content="{{ config.site_url}}img/card_social_site.png" />
+  <meta property="og:image" content="https://coseerobe.github.io/gb-MaterialMkDocs/img/card_social_site.png" />
   <meta property="og:image:type" content="image/png" />
   <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />	  
- <!-- Twetter single page -->
-{% if page and page.meta and page.meta.social_image %}
-  <meta property="twitter:image" content="{{ config.site_url ~ page.meta.social_image }}" />
-{% endif %}
-<!-- Meta tags --> 
+  <meta property="og:image:height" content="630" />
+<!-- twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="https://coseerobe.github.io/gb-MaterialMkDocs/" />
+  <meta name="twitter:creator" content="Giovan Battista Vitrano" />
+  <meta name="twitter:title" content="{{ title }}" />
+  <meta name="twitter:description" content="{{ config.site_description }}" />
+  <meta name="twitter:image" content="https://coseerobe.github.io/gb-MaterialMkDocs/img/card_social_site.png" />
+<!-- Meta tags -->  
   <meta name="keywords" content="calcolatore, campi, qgis, espressioni, funzioni, field calc, tabella, attributi, coordinate, hfcqgis, opendatasicilia,">  
   <meta name="creation_Date" content="01/07/2021">
   <meta property="robots" content="index, follow" />
@@ -76,10 +62,56 @@
    <!-- RSS Feed -->
   <link rel="alternate" type="application/rss+xml" title="RSS feed of created content" href="{{ config.site_url }}feed_rss_created.xml">
   <link rel="alternate" type="application/rss+xml" title="RSS feed of updated content" href="{{ config.site_url }}feed_rss_updated.xml">
-   {% endblock %}
+  {% endblock %}
+  
+  {% block site_nav %}
+    <style>
+        .tag-cloud-toc {
+            display: none;
+        }
+        @media screen and (max-width: 76.1875em) {
+            .tag-cloud-toc {
+                display: block;
+            }
+        }
+    </style>
+    {% if nav %}
+        {% if page and page.meta and page.meta.hide %}
+            {% set hidden = "hidden" if "navigation" in page.meta.hide %}
+        {% endif %}
+        <div class="md-sidebar md-sidebar--primary"
+             data-md-component="sidebar"
+             data-md-type="navigation" {{ hidden }}>
+            <div class="md-sidebar__scrollwrap">
+                <div class="md-sidebar__inner">
+                    {% include "partials/nav.html" %}
+                    <div class="tag-cloud-nav">
+                        {% include "partials/tag-cloud.html" %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endif %}
+    {% if page.toc and not "toc.integrate" in features %}
+        {% if page and page.meta and page.meta.hide %}
+            {% set hidden = "hidden" if "toc" in page.meta.hide %}
+        {% endif %}
+        <div class="md-sidebar md-sidebar--secondary"
+             data-md-component="sidebar"
+             data-md-type="toc" {{ hidden }}>
+            <div class="md-sidebar__scrollwrap">
+                <div class="md-sidebar__inner">
+                    {% include "partials/toc.html" %}
+                    <div class="tag-cloud-toc">
+                        {% include "partials/tag-cloud.html" %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endif %}
+{% endblock %}
   
 {% block content %}
-
 <!-- pulsante stampa -->	
 {% if page.url_to_print_page %}
     <a href="{{ page.url_to_print_page }}" title="Stampa il sito in PDF" class="md-content__button md-icon">

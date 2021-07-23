@@ -1,6 +1,6 @@
 ## Project information
 site_name: OpenDataSicilia Mkdocs-Material
-site_url: https://github.com/opendatasicilia/ods-mkdocs-material
+site_url: https://opendatasicilia.github.io/ods-mkdocs-material/
 site_description: OpenDataSicilia Mkdocs-Material repo demo
 
 ## Repository
@@ -9,14 +9,14 @@ repo_url: https://github.com/opendatasicilia/ods-mkdocs-material
 edit_uri: edit/main/docs/ #disables edit button
 
 # Copyright
-copyright: <a href="https://github.com/opendatasicilia/ods-mkdocs-material/privacy/" title="Informativa privacy estesa" target="_parent">Privacy</a> | <a href="https://creativecommons.org/licenses/by-sa/4.0/" title="Se non specificato diversamente, tutti i contenuti sono soggetti alla licenza Creative Commons Attribution-ShareAlike 4.0 licence (CC BY-SA)" target="_blank" class="link-dark text-decoration-none">CC-BY-SA-4.0</a>
+copyright: <a href="https://opendatasicilia.github.io/ods-mkdocs-material/privacy/" title="Informativa privacy estesa" target="_parent">Privacy</a> | <a href="https://creativecommons.org/licenses/by-sa/4.0/" title="Se non specificato diversamente, tutti i contenuti sono soggetti alla licenza Creative Commons Attribution-ShareAlike 4.0 licence (CC BY-SA)" target="_blank" class="link-dark text-decoration-none">CC-BY-SA-4.0</a>
 
 ## Social Media
 extra:
   manifest: "manifest.webmanifest"
   social:
     - icon: fontawesome/solid/home
-      link: https://materialmkdocs-gb.readthedocs.io/
+      link: https://opendatasicilia.github.io/ods-mkdocs-material/
       name: Home Page
     - icon: fontawesome/brands/twitter
       link: http://twitter.com/opendatasicilia
@@ -179,5 +179,6 @@ nav:
             - bla bla: bla.md   
         - bla bla: bla.md
         - bla bla: bla.md 
-    - OpenDataSicilis: ods.md 
+    - About:
+        - OpenDataSicilis: ods.md 
   

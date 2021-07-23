@@ -1,0 +1,36 @@
+<!-- Custom HTML site displayed as the Home chapter -->
+{% extends "main.html" %}
+{% block tabs %}
+{{ super() }}
+
+ <!-- Font Awesome icons (free version)  -->
+<script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+ <!-- css home  -->
+<link rel="stylesheet" href="stylesheets/home.css">   
+<!-- Qui il codice della homepage-->
+
+    
+{% endblock %}
+{% block content %}{% endblock %}
+{% block footer %}
+                <!-- Footer home page | social autore e licenza -->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-start"><a href="https://twitter.com/gbvitrano" title="@gbvitrano " target="_blank">By @gbvitrano </a></div>
+                    <div class="col-lg-4 my-3 my-lg-0">
+                    <a class="btn btn-dark btn-social mx-2" href="http://twitter.com/opendatasicilia" rel="noopener" target="_blank" title="account twitter"><i class="fab fa-twitter"></i></a>
+                      <a class="btn btn-dark btn-social mx-2" href="ttps://t.me/opendatasicilia" target="_blank" title="gruppo telegram""><i class="fab fa-telegram"></i></a>   
+                  <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/groups/opendatasicilia/" target="_blank" title="gruppo facebook""><i class="fab fa-facebook-f"></i></a>   
+                  <a class="btn btn-dark btn-social mx-2" href="https://github.com/gbvitrano/MaterialMkDocs-gb" target="_blank" title="repository github""><i class="fab fa-github"></i></a>   
+                  
+                 <a class="btn btn-dark btn-social mx-2" href="https://groups.google.com/forum/#!forum/opendatasicilia" rel="noopener" target="_blank" title="mailing list OpenDataSicilia"><i class="fas fa-envelope"></i></a>
+                    </div>
+                    <div class="col-lg-4 text-lg-end">
+                        <!-- <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a> -->
+                        <a href="https://creativecommons.org/licenses/by-sa/4.0/!" title="Se non specificato diversamente, tutti i contenuti sono soggetti alla licenza Creative Commons Attribution-ShareAlike 4.0 licence (CC BY-SA)" target="_blank" class="link-dark text-decoration-none">Licenza CC-BY-SA-4.0</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+{% endblock %}
