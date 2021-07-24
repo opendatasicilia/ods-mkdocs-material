@@ -14,24 +14,15 @@ copyright: CC-BY-SA-4.0
 ## Social Media
 extra:
   social:
-    - icon: fontawesome/solid/home
-      link: https://opendatasicilia.github.io/ods-mkdocs-material/
-      name: Home Page
     - icon: fontawesome/brands/twitter
-      link: http://twitter.com/opendatasicilia
+      link: 
       name: account twitter
     - icon: fontawesome/brands/facebook
-      link: https://www.facebook.com/groups/opendatasicilia/
+      link: 
       name: gruppo facebook
     - icon: fontawesome/brands/github
-      link: https://github.com/coseerobe/gb-MaterialMkDocs
+      link: 
       name: Repoisitory GitHub
-    - icon: fontawesome/brands/telegram
-      link: http://twitter.com/opendatasicilia
-      name: gruppo Telegram
-    - icon: fontawesome/solid/envelope
-      link: https://groups.google.com/forum/#!forum/opendatasicilia
-      name: mailing list OpenDataSicilia
     - icon: fontawesome/solid/rss
       link: ../feed_rss_created.xml
       name: Feed RSS
