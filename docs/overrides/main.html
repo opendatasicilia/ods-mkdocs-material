@@ -3,7 +3,7 @@
 
 {% block libs %}
  <!-- Qui Script header) --> 
- <link href="../stylesheets/jquery-eu-cookie-law-popup.css" rel="stylesheet" type="text/css"/>
+ <link href="{{ config.site_url}}stylesheets/jquery-eu-cookie-law-popup.css" rel="stylesheet" type="text/css"/>
  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
  <!-- Qui Script footer) --> 
 
@@ -11,8 +11,8 @@
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-60fb34f266d6fdd5"></script>
 
  <!-- Qui Progress bar) --> 
-<script src="../stylesheets/jquery-3.1.1.min.js"></script>
-<script src="../stylesheets/prognroll.min.js"></script>
+<script src="{{ config.site_url}}stylesheets/jquery-3.1.1.min.js"></script>
+<script src="{{ config.site_url}}stylesheets/prognroll.min.js"></script>
 <script>
     $(function() {
       $("body").prognroll({
@@ -23,7 +23,7 @@
 </script> 
 <!-- eu-cookie-lawt -->
 <div class="eupopup eupopup-top "></div>
-<script src="../stylesheets/jquery-eu-cookie-law-popup.js"></script> 
+<script src="{{ config.site_url}}stylesheets/jquery-eu-cookie-law-popup.js"></script> 
 {% endblock %}
 
 <!-- blocco meta tag e social -->
@@ -46,9 +46,6 @@
   {% if page and page.meta and page.meta.social_image %}
  <meta property="og:image" content="{{ config.site_url ~ page.meta.social_image }}" />
  {% endif %}
-
-
-
 	   <!-- Social card full  site facebook-->	 
   {% set title = config.site_name %}
     {% if page and page.meta and page.meta.title %}
@@ -79,9 +76,7 @@
   <link rel="alternate" type="application/rss+xml" title="RSS feed of created content" href="{{ config.site_url }}feed_rss_created.xml">
   <link rel="alternate" type="application/rss+xml" title="RSS feed of updated content" href="{{ config.site_url }}feed_rss_updated.xml">
    {% endblock %}
-  
-{% block content %}
-
+  {% block content %}
 <!-- pulsante stampa -->	
 {% if page.url_to_print_page %}
     <a href="{{ page.url_to_print_page }}" title="Stampa il sito in PDF" class="md-content__button md-icon">
