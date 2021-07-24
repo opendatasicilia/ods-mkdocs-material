@@ -13,7 +13,6 @@ copyright: <a href="https://opendatasicilia.github.io/ods-mkdocs-material/privac
 
 ## Social Media
 extra:
-  manifest: "manifest.webmanifest"
   social:
     - icon: fontawesome/solid/home
       link: https://opendatasicilia.github.io/ods-mkdocs-material/
@@ -36,13 +35,7 @@ extra:
     - icon: fontawesome/solid/rss
       link: ../feed_rss_created.xml
       name: Feed RSS
-    - icon: fontawesome/solid/file-pdf
-      link: ../ODS_Mkdocs-Material.pdf
-      name: Scarica il file PDF
- # analytics:
- #   provider: google
- #   property: usa il tuo codice
-    
+
 # Configuration
 theme:
   name: material
@@ -68,37 +61,16 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
-  font:
-    text: Lato
-    code: Roboto Mono
-  favicon: img/favicon.ico
+ # favicon:  
   icon:
     repo: fontawesome/brands/github
-  logo: img/logo.png
+  # logo: 
    
 plugins:
 - search
 - mkdocstrings
 - autolinks
 - macros  
-- print-site:
-    add_to_navigation: false
-    print_page_title: 'Manuale pdf'
-    add_print_site_banner: true
-    print_site_banner_template: "docs/pdf/banner.tpl"
-    # Table of contents
-    add_table_of_contents: true
-    toc_title: 'OpenDataSicilia Mkdocs-Material formato PDF'
-    toc_depth: 6
-    # Content-related
-    add_full_urls: true
-    enumerate_headings: true
-    enumerate_figures: true
-    add_cover_page: true
-    cover_page_template: "docs/pdf/cover_page.tpl"
-    path_to_pdf: "ODS_Mkdocs-Material.pdf"
-    exclude:
-        
 - rss:
     abstract_chars_count: 160
     date_from_meta:
@@ -106,7 +78,7 @@ plugins:
         as_update: false 
         datetime_format: "%d-%m-%Y"
     # datetime_format: "%Y-%m-%d"
-    image: https://materialmkdocs-gb.readthedocs.io/it/latest/img/hfc_rss.png
+    image: 
     feed_ttl: 1440
     length: 20
     pretty_print: false
@@ -150,7 +122,7 @@ extra_javascript:
    - stylesheets/extra.js
  
 extra_css:
-   - stylesheets/ods-extra.css
+   - stylesheets/extra.css
   
 ## Page tree
 nav:

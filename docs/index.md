@@ -1,9 +1,3 @@
----
-title: OpenDataSicilia Mkdocs-Material repo demo
-hide:
-  - navigation
-  - toc
----
 # OpenDataSicilia Mkdocs-Material demo site
 
 Praesent vehicula id orci eu consectetur. Vivamus mollis nunc eu nisl vestibulum convallis. In sed velit tempor neque tristique tincidunt vel eget arcu. Integer consequat, massa eu gravida mollis, tellus velit interdum diam, maximus semper lacus lorem porttitor sem. Duis suscipit ante ut quam sollicitudin iaculis. Proin nec mi mollis, eleifend libero at, scelerisque libero. Maecenas nec dictum sapien. Nullam id feugiat sapien, ut convallis nulla. Curabitur facilisis pulvinar nisi vel luctus. Donec laoreet ultrices risus, quis gravida odio lobortis non. Cras sed lobortis magna. Cras aliquet dapibus dolor, et finibus ipsum commodo nec. Morbi a elit nec dolor fermentum lacinia. In facilisis venenatis dictum. Sed egestas, sem et maximus accumsan, est arcu porttitor felis, vel semper orci felis vitae lacus. Maecenas aliquet ipsum eget metus rutrum, at consequat orci ultricies.
