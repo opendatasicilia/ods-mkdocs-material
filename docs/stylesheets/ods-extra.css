@@ -166,7 +166,7 @@ div.doc-contents:not(.first) {
 #print-site-banner {border-color: #ff0000!important; border-radius: 10px!important; }
 
 /*mod. altezza footer prev/next*/
-.md-footer__link {padding-bottom: .1rem!important; padding-top: .4rem!important; }
+.md-footer__link {padding-bottom: .1rem!important; padding-top: .2rem!important; }
 
    /* cambia colore al footer ed page next/pre*/
 .md-footer { background-color:var(--md-default-bg-color); color: var(--md-default-fg-color);}
