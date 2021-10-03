@@ -1,6 +1,4 @@
 name: gh-deploy 
-
-
 on:
   push:
     branches: 
