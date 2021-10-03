@@ -59,8 +59,6 @@ theme:
    
 plugins:
 - search
-- mkdocs-versioning:
-      version: 0.4.0
 - mkdocstrings
 - autolinks
 - macros  
