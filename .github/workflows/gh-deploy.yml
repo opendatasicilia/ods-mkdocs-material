@@ -12,6 +12,7 @@ jobs:
         with:
           python-version: 3.x
       - run: pip install mkdocs-material
+      - run  pip install mkdocs-versioning
       - run: pip install requests_oauthlib
       - run: pip install click
       - run: pip install click-plugins

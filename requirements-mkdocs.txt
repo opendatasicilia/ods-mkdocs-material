@@ -6,6 +6,7 @@ pytest
 pytest-cov
 pyflakes
 mkdocs>=1.2.2
+mkdocs-versioning
 mkdocs-material
 mkdocs-material-extensions>=1.0
 mkdocstrings
