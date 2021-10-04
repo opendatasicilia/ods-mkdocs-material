@@ -1,4 +1,5 @@
 requests_oauthlib
+markdown>=3.2
 click
 click-plugins
 click-config-file
