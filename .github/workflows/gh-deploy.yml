@@ -12,8 +12,8 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v2
         with:
-          python-version: 3.7
-      - run: pip install mkdocs-material>=7.2.6
+          python-version: 3.x
+      - run: pip install mkdocs-material>=7.2.5
       - run: pip install mkdocs-material-extensions>=1.0
       - run: pip install mkdocs>=1.2.2
       - run: pip install markdown>=3.2
