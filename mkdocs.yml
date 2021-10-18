@@ -13,6 +13,7 @@ copyright: CC-BY-SA-4.0
 
 ## Social Media
 extra:
+  disqus: ods-mkdocs-material
   social:
     - icon: fontawesome/brands/twitter
       link: 
