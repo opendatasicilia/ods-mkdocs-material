@@ -60,7 +60,7 @@ theme:
  # favicon:
   icon:
     repo: fontawesome/brands/github
-    logo: docs/img/logo.png
+    logo: img/logo.png
 
 plugins:
 - search
