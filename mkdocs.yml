@@ -9,7 +9,7 @@ repo_url: https://github.com/opendatasicilia/ods-mkdocs-material
 edit_uri: edit/main/docs/ #disables edit button
 
 # Copyright
-copyright: CC-BY-SA-4.0
+copyright: Licenza CC-BY-SA-4.0
 
 ## Social Media
 extra:
@@ -20,10 +20,10 @@ extra:
 ##  ods-mkdocs-material è lo <shortname> legato a Disqus
  social:
     - icon: fontawesome/brands/twitter
-      link:
+      link: https://twitter.com/opendatasicilia
       name: account twitter
     - icon: fontawesome/brands/facebook
-      link:
+      link: https://www.facebook.com/groups/opendatasicilia
       name: gruppo facebook
     - icon: fontawesome/brands/github
       link: https://github.com/opendatasicilia/ods-mkdocs-material
@@ -60,7 +60,7 @@ theme:
  # favicon:
   icon:
     repo: fontawesome/brands/github
-  # logo:
+  # logo: docs/img/favicon.ico
 
 plugins:
 - search
