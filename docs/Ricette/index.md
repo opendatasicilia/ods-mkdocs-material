@@ -60,6 +60,7 @@ Esempio:
 extra:
    disqus: ods-mkdocs-material
 ```
+
 Cosa è uno *shortname*?
 Uno *shortname* è l'identificatore univoco assegnato a un sito Disqus. Tutti i commenti pubblicati su un sito sono referenziati con il nome breve. Segui la [guida di Disqus](https://help.disqus.com/en/articles/1717111-what-s-a-shortname) per assegare al tuo sito uno *[shortname](https://help.disqus.com/en/articles/1717111-what-s-a-shortname)*
 
