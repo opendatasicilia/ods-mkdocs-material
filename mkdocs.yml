@@ -26,7 +26,7 @@ extra:
       link:
       name: gruppo facebook
     - icon: fontawesome/brands/github
-      link:
+      link: https://github.com/opendatasicilia/ods-mkdocs-material
       name: Repoisitory GitHub
     - icon: fontawesome/solid/rss
       link: ../feed_rss_created.xml
