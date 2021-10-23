@@ -1,4 +1,4 @@
-## Come aggiungere icona per modifica pagina o proporre di farlo
+## Come aggiungere icona "modifica pagina"
 
 È possibile aggiungere un'icona che - in dipendenza dei permessi che si hanno sul repo - consente o di fare una modifica diretta sui contenuti della pagina o di proporne una (vedi immagine sotto).
 
