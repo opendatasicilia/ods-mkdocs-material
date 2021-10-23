@@ -36,7 +36,7 @@ hide:
 
 ![](img/disqus.png)
 
-Per prima cosa dobbiamo verificare se nel `mkdocs.yml` sia impostato correttamente il `site_url`, solitamente troviamo il `site_url` nella sezione *Project information*
+Per prima cosa dobbiamo verificare se nel `mkdocs.yml` è impostato correttamente il `site_url`, solitamente troviamo il `site_url` nella sezione *Project information*
 
 Esempio di blocco Project information:
 
