@@ -15,18 +15,18 @@ copyright: CC-BY-SA-4.0
 extra:
 ## Come inserire i commenti di Disqus https://squidfunk.github.io/mkdocs-material/setup/adding-a-comment-system/#other-comment-systems
 ## Crea accont e sito shortname https://help.disqus.com/en/articles/1717111-what-s-a-shortname
-## disqus: <shortname>  
+## disqus: <shortname>
  disqus: ods-mkdocs-material
 ##  ods-mkdocs-material è lo <shortname> legato a Disqus
  social:
     - icon: fontawesome/brands/twitter
-      link: 
+      link:
       name: account twitter
     - icon: fontawesome/brands/facebook
-      link: 
+      link:
       name: gruppo facebook
     - icon: fontawesome/brands/github
-      link: 
+      link:
       name: Repoisitory GitHub
     - icon: fontawesome/solid/rss
       link: ../feed_rss_created.xml
@@ -57,24 +57,24 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
- # favicon:  
+ # favicon:
   icon:
     repo: fontawesome/brands/github
-  # logo: 
-   
+  # logo:
+
 plugins:
 - search
 - mkdocstrings
 - autolinks
-- macros  
+- macros
 - rss:
     abstract_chars_count: 160
     date_from_meta:
         as_creation: "date"
-        as_update: false 
+        as_update: false
         datetime_format: "%d-%m-%Y"
     # datetime_format: "%Y-%m-%d"
-    image: 
+    image:
     feed_ttl: 1440
     length: 20
     pretty_print: false
@@ -82,12 +82,12 @@ plugins:
     url_parameters:
         utm_source: "documentation"
         utm_medium: "RSS"
-        utm_campaign: "feed-syndication"    
+        utm_campaign: "feed-syndication"
 
 markdown_extensions:
 - toc:
         permalink: ↵
-- meta        
+- meta
 - mkdocs-click
 - pymdownx.highlight
 - pymdownx.superfences
@@ -116,34 +116,34 @@ markdown_extensions:
 ## Custom theme additions
 extra_javascript:
    - stylesheets/extra.js
- 
+
 extra_css:
    - stylesheets/extra.css
-  
- 
+
+
 ## Page tree
 
 nav:
     - Home: index.md
-    
+
     - Installazione:
         - Insta 1: Installazione/insta1.md
         - Insta 2:
             -  Insta 2.1: Installazione/insta2_1.md
-            -  Insta 2.2: Installazione/insta2_2.md   
-        - Insta 3: Installazione/insta3.md 
-            
+            -  Insta 2.2: Installazione/insta2_2.md
+        - Insta 3: Installazione/insta3.md
+    - Ricette: Ricette/index.md
     - Configurazione:
         - Congf 1: Configurazione/conf1.md
         - Congf 2: Configurazione/conf2.md
-            
+
     - Riferimenti:
         - Rifer 1: Riferimenti/rifer1.md
         - Rifer 2:
             - Rifer 2.1: Riferimenti/rifer2_1.md
-            - Rifer 2.2: Riferimenti/rifer2_2.md 
-            - Rifer 2.3: Riferimenti/rifer2_3a.md 
-        
+            - Rifer 2.2: Riferimenti/rifer2_2.md
+            - Rifer 2.3: Riferimenti/rifer2_3a.md
+
     - About:
         - OpenDataSicilia: ods.md
         - Privacy: privacy.md
