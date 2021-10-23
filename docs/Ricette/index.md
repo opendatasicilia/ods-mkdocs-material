@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 ## Come aggiungere icona "modifica pagina"
 
 È possibile aggiungere un'icona che - in dipendenza dei permessi che si hanno sul repo - consente o di fare una modifica diretta sui contenuti della pagina o di proporne una (vedi immagine sotto).
@@ -13,3 +18,15 @@ edit_uri: edit/main/docs/
 ```
 
 
+## Come nascondere la sidebar di sinistra
+
+Per certe sezioni, può essere intutile avere la *sidebar* di sinitra, perché non sono presenti altre sezioni "sorelle", ma ad esempio una sola lunga pagina.
+
+Per nasconderla, basta aggiungere all'inizio del file:
+
+```
+---
+hide:
+  - navigation
+---
+```
