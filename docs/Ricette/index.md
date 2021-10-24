@@ -109,3 +109,8 @@ extra:
       link: ../feed_rss_created.xml
       name: Feed RSS
 ```
+
+
+Nel sito si avrà qualcosa come quella sottostante:
+
+![](img/footer.png)
