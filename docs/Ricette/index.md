@@ -30,6 +30,7 @@ hide:
   - navigation
 ---
 ```
+
 ## Come abilitare e/o disabilitare i commenti Disqus
 
 È possibile abilitare i commenti di Disqus su tutte le pagine del sito ad eccezione della homepage
@@ -71,3 +72,25 @@ Per alcune pagine può essere utile disabilitare commenti, per farlo basta aggiu
 disqus: ""
 ---
 ```
+
+## Come aggiungere il repo di riferimento in alto a sinistra
+
+nel file  `mkdocs.yml`
+
+inserire:
+
+```
+## Repository
+repo_name: OpenDataSicilia Mkdocs-Material
+repo_url: https://github.com/opendatasicilia/ods-mkdocs-material
+edit_uri: edit/main/docs/ #disables edit button
+```
+
+se invece si scrive così:
+```
+## Repository
+# repo_name: OpenDataSicilia Mkdocs-Material
+# repo_url: https://github.com/opendatasicilia/ods-mkdocs-material
+# edit_uri: edit/main/docs/ #disables edit button
+```
+allora scompare in alto a sinistra il link al repo GitHub di riferimento del progetto. Sicuramente per molti progetti non serve avere in alto a sinistra il link del repo github. Il link al repo Githb del progetto, comunque è nel footer a destra.
