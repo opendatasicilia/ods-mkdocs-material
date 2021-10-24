@@ -1,5 +1,7 @@
 # Personalizzazione del template HTML
 
+## Cartella personalizzata
+
 È possibile personalizzare il template di base. Per farlo, bisogna aggiungere nel file di configurazione `mkdocs.yml` (presente nella radice del repo) la proprietà `custom_dir`:
 
 ```yaml
