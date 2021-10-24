@@ -98,6 +98,7 @@ markdown_extensions:
 - pymdownx.mark
 - pymdownx.tilde
 - pymdownx.smartsymbols
+- pymdownx.keys
 - admonition
 - pymdownx.details
 - pymdownx.tasklist:
@@ -135,6 +136,7 @@ nav:
     - Configurazione: Configurazione/index.md
     - Riferimenti:
         - Template: Riferimenti/template.md
+        - Formattazione: Riferimenti/formattazione.md
         - Rifer 1: Riferimenti/rifer1.md
         - Rifer 2:
             - Rifer 2.1: Riferimenti/rifer2_1.md
