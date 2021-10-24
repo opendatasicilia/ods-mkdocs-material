@@ -9,3 +9,6 @@ Questo è un repository per ospitare una guida all'utilizzo di **Material for Mk
 
 
 Questa guida è raggiungibile [qui](https://opendatasicilia.github.io/ods-mkdocs-material/), ed è generata tramite [questa GitHub Action](https://github.com/opendatasicilia/ods-mkdocs-material/blob/main/.github/workflows/gh-deploy.yml) ([qui](https://squidfunk.github.io/mkdocs-material/publishing-your-site/#with-github-actions) la guida correlata).
+
+![GitHub issues](https://img.shields.io/github/issues/opendatasicilia/ods-mkdocs-material?color=blue)
+![GitHub closed issues](https://img.shields.io/github/issues-closed/opendatasicilia/ods-mkdocs-material?color=green)
