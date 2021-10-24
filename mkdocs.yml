@@ -35,7 +35,7 @@ extra:
 # Configuration
 theme:
   name: material
-  custom_dir: docs/overrides/
+  custom_dir: overrides
   static_templates:
     - 404.html
   language: it
@@ -60,7 +60,7 @@ theme:
  # favicon:
   icon:
     repo: fontawesome/brands/github
-  # logo: 
+  # logo:
 
 plugins:
 - search
