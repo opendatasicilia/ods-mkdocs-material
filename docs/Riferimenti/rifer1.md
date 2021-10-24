@@ -1,5 +1,6 @@
 ---
-social_image: img/card_social_page.png
+og_image: img/card_social_page.png
+description: descrizione d'esempio soltanto per questa pagina
 ---
 
 # Titolo 1
