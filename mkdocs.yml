@@ -110,6 +110,7 @@ markdown_extensions:
 - abbr
 - pymdownx.snippets
 - footnotes
+- tables
 
 ## Custom theme additions
 extra_javascript:
