@@ -20,7 +20,7 @@
     {% elif page and page.meta and page.meta.og_image %}
         <meta property="og:image:url" content="{{ config.site_url ~ 'img/' ~ page.meta.og_image }}" />
     {% else %}
-        <meta property="og:image:url" content="{{ config.site_url ~ config.theme.favicon }}" />
+        <meta property="og:image:url" content="{{ config.site_url ~ 'img/openGraph.png' }}" />
     {% endif %}
 
     {% if page and page.meta and page.meta.og_image_type %}
