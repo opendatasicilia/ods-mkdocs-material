@@ -7,5 +7,6 @@ Questo è un repository per ospitare una guida all'utilizzo di **Material for Mk
 
 Non vuole rimpiazzare la [fantastica guida ufficiale](https://squidfunk.github.io/mkdocs-material/getting-started/), ma essere un comodo trampolino di lancio per chi vuole partire da zero e mettere in piedi rapidamente online un sito web basato su **Material for MkDocs**.
 
-![GitHub issues](https://img.shields.io/github/issues/opendatasicilia/ods-mkdocs-material?color=blue)
-![GitHub closed issues](https://img.shields.io/github/issues-closed/opendatasicilia/ods-mkdocs-material?color=green)
+![GitHub issues](https://img.shields.io/github/issues/opendatasicilia/ods-mkdocs-material?color=red)
+![GitHub closed issues](https://img.shields.io/github/issues-closed/opendatasicilia/ods-mkdocs-material?color=green) <br>
+![GitHub closed issues](https://img.shields.io/badge/base_del_progetto_di_documentazione-MKDocs_material-blue)
