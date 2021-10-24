@@ -1,7 +1,6 @@
 ---
 og_title: Titolo personalizzato per condivisione sociale
-og_image: card_social_page.png
-page_path: img/
+og_image: img/card_social_page.png
 description: Descrizione d'esempio soltanto per questa pagina
 ---
 
