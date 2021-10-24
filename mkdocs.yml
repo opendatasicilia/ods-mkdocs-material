@@ -131,10 +131,7 @@ nav:
             -  Insta 2.2: Installazione/insta2_2.md
         - Insta 3: Installazione/insta3.md
     - Ricette: Ricette/index.md
-    - Configurazione:
-        - Congf 1: Configurazione/conf1.md
-        - Congf 2: Configurazione/conf2.md
-
+    - Configurazione: Configurazione/index.md
     - Riferimenti:
         - Template: Riferimenti/template.md
         - Rifer 1: Riferimenti/rifer1.md
