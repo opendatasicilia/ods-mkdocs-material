@@ -6,3 +6,6 @@ Questo è un repository per ospitare una guida all'utilizzo di **Material for Mk
 - [Material](https://squidfunk.github.io/mkdocs-material/) è un tema per personalizzare siti basati su MkDocs.
 
 Non vuole rimpiazzare la [fantastica guida ufficiale](https://squidfunk.github.io/mkdocs-material/getting-started/), ma essere un comodo trampolino di lancio per chi vuole partire da zero e mettere in piedi rapidamente online un sito web basato su **Material for MkDocs**.
+
+![GitHub issues](https://img.shields.io/github/issues/opendatasicilia/ods-mkdocs-material?color=blue)
+![GitHub closed issues](https://img.shields.io/github/issues-closed/opendatasicilia/ods-mkdocs-material?color=green)
