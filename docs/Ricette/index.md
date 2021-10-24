@@ -73,24 +73,39 @@ disqus: ""
 ---
 ```
 
-## Come aggiungere il repo di riferimento in alto a sinistra
+## Come aggiungere il repository di riferimento in alto a destra
 
-nel file  `mkdocs.yml`
-
-inserire:
+Basta inserire nel file `mkdocs.yml`:
 
 ```
 ## Repository
 repo_name: OpenDataSicilia Mkdocs-Material
 repo_url: https://github.com/opendatasicilia/ods-mkdocs-material
-edit_uri: edit/main/docs/ #disables edit button
 ```
 
-se invece si scrive così:
+E si otterrà
+
+![](img/repoAltoDestra.png)
+
+Altrimenti può essere inserito tra le icone con gli URL utili, presenti nel footer (vedi sotto).
+
+## Come aggiungere icone con URL utili nel footer
+
+Basta inserire nel file `mkdocs.yml`:
+
+```yaml
+extra:
+ social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/opendatasicilia
+      name: account twitter
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/groups/opendatasicilia
+      name: gruppo facebook
+    - icon: fontawesome/brands/github
+      link: https://github.com/opendatasicilia/ods-mkdocs-material
+      name: Repoisitory GitHub
+    - icon: fontawesome/solid/rss
+      link: ../feed_rss_created.xml
+      name: Feed RSS
 ```
-## Repository
-# repo_name: OpenDataSicilia Mkdocs-Material
-# repo_url: https://github.com/opendatasicilia/ods-mkdocs-material
-# edit_uri: edit/main/docs/ #disables edit button
-```
-allora scompare in alto a sinistra il link al repo GitHub di riferimento del progetto. Sicuramente per molti progetti non serve avere in alto a sinistra il link del repo github. Il link al repo Githb del progetto, comunque è nel footer a destra.
