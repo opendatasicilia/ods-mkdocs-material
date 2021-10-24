@@ -16,7 +16,7 @@ extra:
 ## Come inserire i commenti di Disqus https://squidfunk.github.io/mkdocs-material/setup/adding-a-comment-system/#other-comment-systems
 ## Crea accont e sito shortname https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 ## disqus: <shortname>
- disqus: ods-mkdocs-material
+# disqus: ods-mkdocs-material
 ##  ods-mkdocs-material è lo <shortname> legato a Disqus
  social:
     - icon: fontawesome/brands/twitter
