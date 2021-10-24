@@ -36,8 +36,6 @@ extra:
 theme:
   name: material
   custom_dir: overrides
-  static_templates:
-    - 404.html
   language: it
   features:
     - navigation.top
