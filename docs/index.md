@@ -17,17 +17,6 @@ Non vuole rimpiazzare la [fantastica guida ufficiale](https://squidfunk.github.i
 Se vuoi fare qualche ❔ **domanda**, o ❕ **proposta**, usa per favore le [**discussioni**](https://github.com/opendatasicilia/ods-mkdocs-material/discussions).
 
 
-
-## Pagine del progetto scritte con liguaggio Markdown
-Il linguaggio `Markdown` (`.MD`) ha una sintassi abbastanza facile da imparare, alla portata di tutti.
-Un comodo strumento per ottenere testo in Markdown è rappresentato dal plugin [Docs to Markdown](https://workspace.google.com/marketplace/app/docs_to_markdown/700168918607) da usare su Google docs. Converte testo di una pagina in Makdown e HTML.
-Altri strumenti online per tradurre testo in `.MD` sono:
-
-- https://dillinger.io/
-- https://pandoc.org/try/
-- https://stackedit.io/app#
--
-
 ---
 
 ![GitHub issues](https://img.shields.io/github/issues/opendatasicilia/ods-mkdocs-material?color=red)
