@@ -119,7 +119,7 @@ Nel sito si avrà qualcosa come quella sottostante:
 
 ## Come impostare titolo personalizzato per la condivisione sul web
 
-Si fa aggiungendo a inizio pagina, nel così detto `front matter` il titolo che si vuole associare alla pagina.
+Si fa aggiungendo a inizio pagina, nel così detto `front matter`, il titolo che si vuole associare alla pagina.
 
 ```
 ---
@@ -133,7 +133,7 @@ In questo modo, quando la pagina sarà condivisa online (*social*, chat, ecc.), 
 
 ## Come impostare immagine personalizzata per la condivisione sul web
 
-Si fa aggiungendo a inizio pagina, nel così detto `front matter` il nome del file immagine, che si vuole associare alla pagina.<br>
+Si fa aggiungendo a inizio pagina, nel così detto `front matter`, il nome del file immagine, che si vuole associare alla pagina.
 
 !!! note "Nota bene"
 
