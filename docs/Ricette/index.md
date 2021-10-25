@@ -135,15 +135,16 @@ In questo modo, quando la pagina sarà condivisa online (*social*, chat, ecc.), 
 
 Si fa aggiungendo a inizio pagina, nel così detto `front matter`, il nome del file immagine, che si vuole associare alla pagina.
 
-!!! note "Nota bene"
-
-    Se cloni questo *repository* per creare il tuo sito, l'immagine dovrà essere inserita nella cartella `docs/img`.
-
 ```
 ---
 og_image: immagineCondivisioneAssociataPagina.png
 ---
 ```
+
+!!! note "Nota bene"
+
+    Se cloni questo *repository* per creare il tuo sito, l'immagine dovrà essere inserita nella cartella `docs/img`.
+
 
 In questo modo, quando la pagina sarà condivisa online (*social*, chat, ecc.), l'immagine di anteprima sarà quella scelta:
 
