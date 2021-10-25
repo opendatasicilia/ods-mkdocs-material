@@ -4,12 +4,14 @@ hide:
 ---
 
 # Configurazione
-Material per MkDocs supporta due combinazioni di colori: una modalità chiara, chiamata semplicemente `default`, e una modalità scura, chiamata `slate`. Lo schema dei colori può essere impostato tramite mkdocs.yml:
+Material per MkDocs supporta due combinazioni di colori: una modalità chiara, chiamata semplicemente `default`, e una modalità scura, chiamata `slate`. Lo schema dei colori può essere impostato nel file `mkdocs.yml`:
 ```
 theme:
   palette:
     scheme: default
 ```
+
+## Colori sfondo header e colori accento
 
 ### Colore primario
 Predefinito: `indigo`.
