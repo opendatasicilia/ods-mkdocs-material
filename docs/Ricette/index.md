@@ -137,7 +137,7 @@ Si fa aggiungendo a inizio pagina, nel così detto `front matter` il nome del fi
 
 !!! note "Nota bene"
 
-    Per questo *repository*, l'immagine dovrà essere inserita nella cartella `docs/img`.
+    Se cloni questo *repository* per creare il tuo sito, l'immagine dovrà essere inserita nella cartella `docs/img`.
 
 ```
 ---
@@ -145,5 +145,6 @@ og_image: immagineCondivisioneAssociataPagina.png
 ---
 ```
 
-In questo modo, quando la pagina sarà condivisa online (*social*, chat, ecc.), l'immagine sarà quella di anteprima:
+In questo modo, quando la pagina sarà condivisa online (*social*, chat, ecc.), l'immagine di anteprima sarà quella scelta:
 
+![](img/webPreviewImmagine.png)
