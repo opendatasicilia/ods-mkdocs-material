@@ -1,6 +1,7 @@
 ---
 hide:
   - navigation
+og_image: immagineCondivisioneAssociataPagina.png
 ---
 
 ## Come aggiungere icona "modifica pagina"
@@ -114,3 +115,31 @@ extra:
 Nel sito si avrà qualcosa come quella sottostante:
 
 ![](img/footer.png)
+
+
+## Come impostare titolo personalizzato per la condivisione sul web
+
+Si fa aggiungendo a inizio pagina, nel così detto `front matter` il titolo che si vuole associare alla pagina.
+
+---
+title: "Titolo personalizzato"
+---
+
+In questo modo, quando la pagina sarà condivisa online (*social*, chat, ecc.), il titolo sarà quello impostato:
+
+![](img/webPreviewTitolo.png)
+
+## Come impostare immagine personalizzata per la condivisione sul web
+
+Si fa aggiungendo a inizio pagina, nel così detto `front matter` il nome del file immagine, che si vuole associare alla pagina.<br>
+
+!!! note "Nota bene"
+
+    Per questo *repository*, l'immagine dovrà essere inserita nella cartella `docs/img`.
+
+---
+og_image: immagineCondivisioneAssociataPagina.png
+---
+
+In questo modo, quando la pagina sarà condivisa online (*social*, chat, ecc.), l'immagine sarà quella di anteprima:
+
