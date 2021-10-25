@@ -1,7 +1,3 @@
----
-hide:
-  - navigation
----
 # Strumenti
 
 ## Per generare testi in Markdown
