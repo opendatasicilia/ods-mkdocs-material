@@ -36,6 +36,8 @@ theme:
 
 ## Dominio personalizzato
 
+<p><span style="background-color: #6462d1; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">da completare .....</span> </p>
+
 ## Pubblicazione sito su gh-pages
 La pubblicazione del sito su pagine di GitHub (gh-pages) avviene in maniera automatica, una volta clonato [**questo progetto**](https://github.com/opendatasicilia/ods-mkdocs-material).
 
