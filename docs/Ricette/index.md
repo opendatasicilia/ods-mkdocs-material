@@ -121,9 +121,11 @@ Nel sito si avrà qualcosa come quella sottostante:
 
 Si fa aggiungendo a inizio pagina, nel così detto `front matter` il titolo che si vuole associare alla pagina.
 
+```
 ---
 title: "Titolo personalizzato"
 ---
+```
 
 In questo modo, quando la pagina sarà condivisa online (*social*, chat, ecc.), il titolo sarà quello impostato:
 
@@ -137,9 +139,11 @@ Si fa aggiungendo a inizio pagina, nel così detto `front matter` il nome del fi
 
     Per questo *repository*, l'immagine dovrà essere inserita nella cartella `docs/img`.
 
+```
 ---
 og_image: immagineCondivisioneAssociataPagina.png
 ---
+```
 
 In questo modo, quando la pagina sarà condivisa online (*social*, chat, ecc.), l'immagine sarà quella di anteprima:
 
