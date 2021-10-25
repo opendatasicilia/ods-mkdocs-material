@@ -2,6 +2,7 @@
 hide:
   - navigation
   - toc
+title: "OpenDataSicilia Material for MkDocs repo: 1, 2 , 3 via"
 ---
 
 # Benvenute/i
@@ -25,7 +26,7 @@ Altri strumenti online per tradurre testo in `.MD` sono:
 - https://dillinger.io/
 - https://pandoc.org/try/
 - https://stackedit.io/app#
-- 
+-
 
 ---
 
