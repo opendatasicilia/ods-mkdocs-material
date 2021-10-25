@@ -14,7 +14,7 @@ theme:
 ## Colori sfondo header e colori accento
 
 ### Colore primario
-Predefinito: `indigo`.
+Predefinito: `indigo`
 
 Il colore primario viene utilizzato per l'intestazione, la barra laterale, i collegamenti di testo e molti altri componenti. Per cambiare il colore primario, imposta il seguente valore in `mkdocs.yml` un nome di colore valido:
 ```
