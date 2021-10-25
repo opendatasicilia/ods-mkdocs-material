@@ -50,4 +50,6 @@ Definita la cartella personalizzata, è necessario seguire la struttura e i nomi
 └─ main.html                           # Default page
 ```
 
-Quindi per una pagina personalizzata per errore `404` (pagina non esistente), qui abbiamo creato nella cartella `overrides` il file `404.html`.
+Quindi per una pagina personalizzata per errore `404` (pagina non esistente), qui abbiamo creato nella cartella `overrides` il file `404.html`. 
+
+Quì il file [404.html](https://github.com/opendatasicilia/ods-mkdocs-material/blob/main/overrides/404.html).
