@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 
 {% block extrahead %}
+<!-- Open Graph / Facebook -->
     {% if page and page.meta and page.meta.og_title %}
         <meta property="og:title" content="{{ page.meta.og_title }}" />
     {% elif page and page.meta and page.meta.title %}
@@ -34,6 +35,30 @@
     {% elif config.site_description %}
         <meta property="og:description" content="{{ config.site_description }}">
     {% endif %}
+
+
+<!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="{{ page.canonical_url }}">
+    {% if page and page.meta and page.meta.og_title %}
+    <meta property="twitter:title" content="{{ page.meta.og_title }}">
+    {% elif page and page.meta and page.meta.title %}
+    <meta property="twitter:title" content="{{ page.meta.title }}">
+    {% endif %}
+    {% if page and page.meta and page.meta.description %}
+        <meta property="twitter:description" content="{{ page.meta.description }}">
+        {% elif config.site_description %}
+        <meta property="twitter:description" content="{{ config.site_description }}">
+        {% endif %}
+
+
+        {% if page and page.meta and page.meta.page_path and page.meta.og_image %}
+        <meta property="twitter:image" content="{{ config.site_url ~ page.meta.page_path ~ page.meta.og_image }}">
+        {% elif page and page.meta and page.meta.og_image %}
+        <meta property="twitter:image" content="{{ config.site_url ~ 'img/' ~ page.meta.og_image }}">
+        {% else %}
+        <meta property="twitter:image" content="{{ config.site_url ~ 'img/openGraph.png' }}">
+        {% endif %}
 
     <meta property="og:locale" content="it-IT" />
 {% endblock %}
