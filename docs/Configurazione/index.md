@@ -46,7 +46,7 @@ La pubblicazione del sito su pagine di GitHub (gh-pages) avviene in maniera auto
 Per attivare [questo tipo](https://opendatasicilia.github.io/ods-mkdocs-material/Riferimenti/formattazione/#grafici) di grafici è necessario:
 
 - installare il modulo Python `mkdocs-mermaid2-plugin`;
-  - se il sito generato tramite GitHub Actions (come questo), aggiungerlo nei moduli da installare (vedi [qui](https://github.com/opendatasicilia/ods-mkdocs-material/blob/main/.github/workflows/gh-deploy.yml));
+    - se il sito generato tramite GitHub Actions (come questo), aggiungerlo nei moduli da installare (vedi [qui](https://github.com/opendatasicilia/ods-mkdocs-material/blob/main/.github/workflows/gh-deploy.yml));
 - aggiungere al file di configurazione `mkdocs.yml` le seguenti istruzioni
 
 ``` hl_lines="3"
