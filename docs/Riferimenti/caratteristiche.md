@@ -9,3 +9,5 @@ In questa versione di Mkdocs Material sono abilitate le seguenti caratteristiche
 ## RSS
 
 ## Allineamento dell'immagine
+
+## Commenti Disqus
