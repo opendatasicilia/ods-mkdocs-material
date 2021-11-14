@@ -5,3 +5,5 @@ In questa versione di Mkdocs Material sono abilitate le seguenti caratteristiche
 ## Grafici Mermaid
 
 ## Immagini per la preview nelle condivisioni web/social
+
+## RSS
