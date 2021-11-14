@@ -120,7 +120,7 @@ markdown_extensions:
 
 ## Custom theme additions
 extra_javascript:
-   - stylesheets/extra.js
+   - javascript/extra.js
    - https://unpkg.com/mermaid/dist/mermaid.min.js
 
 extra_css:
