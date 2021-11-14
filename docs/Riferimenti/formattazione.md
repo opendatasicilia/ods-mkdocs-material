@@ -55,3 +55,30 @@ Risultato:
 - H~2~0
 - A^T^A
 
+## Grafici
+
+È possibile generarli grazie al [modulo javascript Mermaid](https://mermaid-js.github.io/mermaid/#/) e al plugin Python `mkdocs-mermaid2-plugin`.
+
+Ad esempio con
+
+```` markdown
+``` mermaid
+graph TD
+A[Quattro Chiacchiere] --> B[con]
+B --> C[Ciro]
+B --> D[Totò]
+B --> E[andy]
+B --> F[Gianni]
+```
+````
+
+si ottiene
+
+``` mermaid
+graph TD
+A[Quattro Chiacchiere] --> B[con]
+B --> C[Ciro]
+B --> D[Totò]
+B --> E[andy]
+B --> F[Gianni]
+```

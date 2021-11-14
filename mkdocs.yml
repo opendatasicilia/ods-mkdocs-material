@@ -88,7 +88,11 @@ markdown_extensions:
 - meta
 - mkdocs-click
 - pymdownx.highlight
-- pymdownx.superfences
+- pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:mermaid2.fence_mermaid
 - pymdownx.tabbed
 - pymdownx.critic:
       mode: view
@@ -116,6 +120,7 @@ markdown_extensions:
 ## Custom theme additions
 extra_javascript:
    - stylesheets/extra.js
+   - https://unpkg.com/mermaid/dist/mermaid.min.js
 
 extra_css:
    - stylesheets/extra.css
