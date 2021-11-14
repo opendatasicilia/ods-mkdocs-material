@@ -7,3 +7,5 @@ In questa versione di Mkdocs Material sono abilitate le seguenti caratteristiche
 ## Immagini per la preview nelle condivisioni web/social
 
 ## RSS
+
+## Allineamento dell'immagine
