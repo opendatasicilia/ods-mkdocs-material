@@ -61,7 +61,8 @@ theme:
   # logo:
 
 plugins:
-- search
+- search:
+      lang: it
 - mkdocstrings
 - autolinks
 - macros
