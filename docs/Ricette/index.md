@@ -149,3 +149,20 @@ og_image: immagineCondivisioneAssociataPagina.png
 In questo modo, quando la pagina sarà condivisa online (*social*, chat, ecc.), l'immagine di anteprima sarà quella scelta:
 
 ![](img/webPreviewImmagine.png)
+
+
+## Come aggiungere annotazioni nei blocchi di codice
+[Riferimento](https://squidfunk.github.io/mkdocs-material/reference/code-blocks/#adding-annotations).
+
+Prova
+
+``` yaml
+theme:
+  features:
+    - content.code.annotate # (1)
+```
+
+1.  :man_raising_hand: I'm a code annotation! I can contain `code`, __formatted
+    text__, images, ... basically anything that can be expressed in Markdown.
+
+
