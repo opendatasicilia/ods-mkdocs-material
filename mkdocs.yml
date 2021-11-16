@@ -41,6 +41,8 @@ theme:
     - navigation.top
     - navigation.instant
     - navigation.tabs
+    - content.code.annotate # 
+
 
   palette:
     - scheme: default
