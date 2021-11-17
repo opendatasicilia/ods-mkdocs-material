@@ -152,9 +152,42 @@ In questo modo, quando la pagina sarà condivisa online (*social*, chat, ecc.), 
 
 
 ## Come aggiungere annotazioni nei blocchi di codice
-[Riferimento](https://squidfunk.github.io/mkdocs-material/reference/code-blocks/#adding-annotations).
+Le annotazioni di codice offrono un modo comodo e intuitivo per aggiungere contenuto arbitrario a sezioni specifiche di blocchi di codice aggiungendo marcatori numerici nel blocco e commenti in linea nel blocco di codice
 
-Prova
+[Riferimento alla pagina del tutorial MKDocs-Material](https://squidfunk.github.io/mkdocs-material/reference/code-blocks/#adding-annotations).
+
+Cosa fare:
+
+Aggiungere le seguenti linee al file `mkdocs.yml`:
+```
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.snippets
+```
+
+ Aggiungere questa istruzione segue al file `mkdocs.yml`:
+ ```
+ theme:
+  features:
+    - content.code.annotate 
+ ```
+ 
+Vediamo qual è il risultato. Inseriamo nel seguente blocco di codice un commento che sarà preceduto dal simbolo cancelletto `#` e dal numero dentro parentesi tonda. Dopo aver chiuso il blocco di codice lasciare una riga vuota e inserire il commento:
+
+```` markdown
+``` yaml
+theme:
+  features:
+    - content.code.annotate # (1)
+```
+
+1.  :man_raising_hand: I'm a code annotation! I can contain `code`, __formatted
+    text__, images, ... basically anything that can be expressed in Markdown.
+````
+
+Il risultato è:
 
 ``` yaml
 theme:
@@ -164,5 +197,3 @@ theme:
 
 1.  :man_raising_hand: I'm a code annotation! I can contain `code`, __formatted
     text__, images, ... basically anything that can be expressed in Markdown.
-
-
