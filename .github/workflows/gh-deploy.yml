@@ -32,7 +32,7 @@ jobs:
       - run: pip install mkdocs-jupyter
       - run: pip install mkdocs-exclude
       - run: pip install mkdocs-exclude-search
-      - run: pip install mkdocs-macros-plugin
+#      - run: pip install mkdocs-macros-plugin
       - run: pip install mkdocs-print-site-plugin
       - run: pip install mkdocs-pdf-export-plugin
       - run: pip install mkdocs-git-revision-date-localized-plugin
