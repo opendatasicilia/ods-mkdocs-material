@@ -207,24 +207,9 @@ theme:
 In questi casi, se si inserisce del codice Jinja nei file Markdown, anche dentro blocchi di codice si hanno risultati inattesi, e bisogna fare come scritto sotto.<br>
 Altrimenti si può inserire serenamente dentro blocchi di codice.
 
-Per fare in modo che non venga interpretato, bisogna fare l'escape, in [uno dei modi indicati qui](https://jinja.palletsprojects.com/en/3.0.x/templates/#escaping). Uno è circondare il tutto con `{{ '{{' }}% raw %{{ '}}' }}` e `{{ '{{' }}% endraw %{{ '}}' }}`, ovvero scrivendo il seguente codice nei file markdown
+Per fare in modo che non venga interpretato, bisogna fare l'escape, in [uno dei modi indicati qui](https://jinja.palletsprojects.com/en/3.0.x/templates/#escaping). Uno è circondare il tutto con `{% raw %}` e `{% endraw %}`, ovvero scrivendo il seguente codice nei file markdown
 
 ```` html
-``` html
-{{ '{{' }}% raw %{{ '}}' }}
-
-{{ '{{' }}% extends "base.html" %{{ '}}' }}
-
-{{ '{{' }}% block announce %{{ '}}' }}
-  <!-- Add announcement here, including arbitrary HTML -->
-{{ '{{' }}% endblock %{{ '}}' }}
-
-{{ '{{' }}% endraw %{{ '}}' }}
-```
-````
-
-si ottiene
-
 ``` html
 {% raw %}
 
@@ -236,6 +221,7 @@ si ottiene
 
 {% endraw %}
 ```
+````
 
 si ottiene
 
