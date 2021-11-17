@@ -1,9 +1,10 @@
-name: gh-deploy 
+name: gh-deploy
 
+# comment
 
 on:
   push:
-    branches: 
+    branches:
       - main
   workflow_dispatch:
 
@@ -19,7 +20,7 @@ jobs:
       - run: pip install mkdocs-material-extensions>=1.0
       - run: pip install mkdocs>=1.2.2
       - run: pip install markdown>=3.2
-      - run: pip install requests_oauthlib     
+      - run: pip install requests_oauthlib
       - run: pip install click
       - run: pip install click-plugins
       - run: pip install click-config-file
