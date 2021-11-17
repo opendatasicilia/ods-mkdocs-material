@@ -67,7 +67,7 @@ plugins:
       lang: it
 - mkdocstrings
 - autolinks
-- macros
+#- macros
 - rss:
     abstract_chars_count: 160
     date_from_meta:
