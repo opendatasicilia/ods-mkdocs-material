@@ -1,7 +1,5 @@
 name: gh-deploy
 
-# comment
-
 on:
   push:
     branches:
