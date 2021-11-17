@@ -201,7 +201,11 @@ theme:
 
 ## Come inserire in blocchi di codice sintassi Jinja
 
-`Jinja` è il motore dei [template/temi di MkDocs](https://www.mkdocs.org/dev-guide/themes/). Per questa ragione se si inserisce del codice Jinja nei file Markdown, anche dentro blocchi di codice si hanno risultati inattesi.
+`Jinja` è il motore dei [template/temi di MkDocs](https://www.mkdocs.org/dev-guide/themes/). `Material` non usa di base `Jinja`, salvo che non sia caricato da qualche estensione, come la [`mkdocs`](https://github.com/fralau/mkdocs_macros_plugin).
+
+
+In questi casi, se si inserisce del codice Jinja nei file Markdown, anche dentro blocchi di codice si hanno risultati inattesi, e bisogna fare come scritto sotto.<br>
+Altrimenti si può inserire serenamente dentro blocchi di codice.
 
 Per fare in modo che non venga interpretato, bisogna fare l'escape, in [uno dei modi indicati qui](https://jinja.palletsprojects.com/en/3.0.x/templates/#escaping). Uno è circondare il tutto con `{{ '{{' }}% raw %{{ '}}' }}` e `{{ '{{' }}% endraw %{{ '}}' }}`, ovvero scrivendo il seguente codice nei file markdown
 
@@ -231,4 +235,15 @@ si ottiene
 {% endblock %}
 
 {% endraw %}
+```
+
+si ottiene
+
+``` html
+{% extends "base.html" %}
+
+{% block announce %}
+  <!-- Add announcement here, including arbitrary HTML -->
+{% endblock %}
+
 ```
