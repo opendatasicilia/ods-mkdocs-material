@@ -171,9 +171,9 @@ markdown_extensions:
  ```
  theme:
   features:
-    - content.code.annotate 
+    - content.code.annotate
  ```
- 
+
 Vediamo qual è il risultato. Inseriamo nel seguente blocco di codice un commento che sarà preceduto dal simbolo cancelletto `#` e dal numero dentro parentesi tonda. Dopo aver chiuso il blocco di codice lasciare una riga vuota e inserire il commento:
 
 ```` markdown
@@ -197,3 +197,38 @@ theme:
 
 1.  :man_raising_hand: I'm a code annotation! I can contain `code`, __formatted
     text__, images, ... basically anything that can be expressed in Markdown.
+
+
+## Come inserire in blocchi di codice sintassi Jinja
+
+`Jinja` è il motore dei [template/temi di MkDocs](https://www.mkdocs.org/dev-guide/themes/). Per questa ragione se si inserisce del codice Jinja nei file Markdown, anche dentro blocchi di codice si hanno risultati inattesi.
+
+Per fare in modo che non venga interpretato, bisogna fare l'escape, in [uno dei modi indicati qui](https://jinja.palletsprojects.com/en/3.0.x/templates/#escaping). Uno è circondare il tutto con `{{ '{{' }}raw{{ '}}' }}` e `{{ '{{' }}endraw{{ '}}' }}`, ovvero scrivendo il seguente codice nei file markdown
+
+```` html
+``` html
+{{ '{{' }}% raw %{{ '}}' }}
+
+{{ '{{' }}% extends "base.html" %{{ '}}' }}
+
+{{ '{{' }}% block announce %{{ '}}' }}
+  <!-- Add announcement here, including arbitrary HTML -->
+{{ '{{' }}% endblock %{{ '}}' }}
+
+{{ '{{' }}% endraw %{{ '}}' }}
+```
+````
+
+si ottiene
+
+``` html
+{% raw %}
+
+{% extends "base.html" %}
+
+{% block announce %}
+  <!-- Add announcement here, including arbitrary HTML -->
+{% endblock %}
+
+{% endraw %}
+```
