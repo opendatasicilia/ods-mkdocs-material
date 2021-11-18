@@ -24,3 +24,4 @@ OpenDataSicilia fa _scruscio_ ("rumore" in siciliano) qui:
 <a href="https://groups.google.com/forum/#!forum/opendatasicilia/" title="Mailing List" target="_blank"><i class="fa fa-envelope"></i>&nbsp;&nbsp; Mailing List</a><br>
 <a href="http://opendatasicilia.it" title="opendatasicilia.it" target="_blank"><i class="fa fa-globe"></i>&nbsp;&nbsp; opendatasicilia.it</a><br>
 
+
