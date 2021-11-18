@@ -12,7 +12,7 @@ prova renderizzazione codice su pagine HTML
 ```
 
 
-```` html
+
 ``` html
 {% raw %}
 
@@ -24,4 +24,4 @@ prova renderizzazione codice su pagine HTML
 
 {% endraw %}
 ```
-````
+
