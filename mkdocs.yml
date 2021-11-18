@@ -65,8 +65,8 @@ theme:
 plugins:
 - search:
       lang: it
-- mkdocstrings
-- autolinks
+#- mkdocstrings
+#- autolinks
 #- macros
 - rss:
     abstract_chars_count: 160
