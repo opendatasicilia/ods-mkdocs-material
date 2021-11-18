@@ -2,7 +2,6 @@
 prova renderizzazione codice su pagine HTML
 
 ``` html
-{% raw %}
 
 {% extends "base.html" %}
 
@@ -10,7 +9,6 @@ prova renderizzazione codice su pagine HTML
   <!-- Add announcement here, including arbitrary HTML -->
 {% endblock %}
 
-{% endraw %}
 ```
 
 
