@@ -36,7 +36,6 @@ theme:
     accent: indigo
 ```
 
-
 ## Dominio personalizzato
 
 <p><span style="background-color: #e86514; color: #ffffff; display: inline-block; padding: 3px 8px; border-radius: 10px;">da completare .....</span> </p>
