@@ -201,7 +201,7 @@ theme:
 
 ## Come inserire in blocchi di codice sintassi Jinja
 
-`Jinja` è il motore dei [template/temi di MkDocs](https://www.mkdocs.org/dev-guide/themes/). `Material` non usa di base `Jinja`, salvo che non sia caricato da qualche estensione, come la [`mkdocs`](https://github.com/fralau/mkdocs_macros_plugin).
+`Jinja` è il motore dei [template/temi di MkDocs](https://www.mkdocs.org/dev-guide/themes/). `Material` non usa di base `Jinja`, salvo che non sia caricato da qualche estensione, come la [`macros`](https://github.com/fralau/mkdocs_macros_plugin).
 
 
 In questi casi, se si inserisce del codice Jinja nei file Markdown, anche dentro blocchi di codice, si hanno risultati inattesi, e bisogna fare come scritto sotto.<br>
