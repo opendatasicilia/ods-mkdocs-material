@@ -43,7 +43,6 @@ theme:
     - navigation.tabs
     - content.code.annotate #
 
-
   palette:
     - scheme: default
       primary: white
