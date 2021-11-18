@@ -41,7 +41,7 @@ theme:
     - navigation.top
     - navigation.instant
     - navigation.tabs
-    - content.code.annotate # 
+    - content.code.annotate #
 
 
   palette:
@@ -135,12 +135,7 @@ extra_css:
 nav:
     - Home: index.md
 
-    - Installazione:
-        - Insta 1: Installazione/insta1.md
-        - Insta 2:
-            -  Insta 2.1: Installazione/insta2_1.md
-            -  Insta 2.2: Installazione/insta2_2.md
-        - Insta 3: Installazione/insta3.md
+    - Installazione: Installazione/index.md
     - Ricette: Ricette/index.md
     - Configurazione: Configurazione/index.md
     - Riferimenti:
@@ -148,11 +143,6 @@ nav:
         - Formattazione: Riferimenti/formattazione.md
         - Strumenti: Riferimenti/strumenti.md
         - Caratteristiche: Riferimenti/caratteristiche.md
-        - Rifer 1: Riferimenti/rifer1.md
-        - Rifer 2:
-            - Rifer 2.1: Riferimenti/rifer2_1.md
-            - Rifer 2.2: Riferimenti/rifer2_2.md
-            - Rifer 2.3: Riferimenti/rifer2_3a.md
     - Discussioni: 'https://github.com/opendatasicilia/ods-mkdocs-material/discussions'
     - About:
         - OpenDataSicilia: ods.md

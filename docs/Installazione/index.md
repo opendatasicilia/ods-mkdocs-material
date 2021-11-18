@@ -1,8 +1,11 @@
 ---
 social_image: img/card_social_page.png
+hide:
+  - navigation
 ---
 
-# Titolo 2.2
+
+# Istallazione
 
 ## eros malesuada
 et eleifend mi bibendum. Nunc ligula orci, aliquam vitae faucibus at, rhoncus vel risus. In sagittis gravida placerat. Sed gravida egestas leo, in accumsan neque sagittis quis. Curabitur vehicula velit ac sem rhoncus pulvinar. Vestibulum quis cursus ex.
