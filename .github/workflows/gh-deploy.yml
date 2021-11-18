@@ -43,4 +43,3 @@ jobs:
       - run: pip install mkdocs-rss-plugin
       - run: pip install mkdocs-mermaid2-plugin
       - run: mkdocs gh-deploy --force
-      
