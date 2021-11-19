@@ -82,3 +82,9 @@ B --> D[Totò]
 B --> E[andy]
 B --> F[Gianni]
 ```
+
+!!! note "Aggiungere le righe seguenti al file `mkdocs.yml`"
+
+    Per generarli bisogna configurare Material for Mkdocs in [questo modo](../Configurazione/index.md#attivare-grafici-mermaid).
+
+
