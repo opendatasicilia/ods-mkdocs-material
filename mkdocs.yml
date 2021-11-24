@@ -41,7 +41,7 @@ theme:
     - navigation.top
 #    - navigation.instant
     - navigation.tabs
-    - content.code.annotate #
+    - content.code.annotate 
 
   palette:
     - scheme: default
@@ -91,6 +91,7 @@ markdown_extensions:
 - mkdocs-click
 - pymdownx.highlight
 - pymdownx.inlinehilite
+- pymdownx.superfences
 - pymdownx.superfences:
       custom_fences:
         - name: mermaid
@@ -119,6 +120,8 @@ markdown_extensions:
 - pymdownx.snippets
 - footnotes
 - tables
+
+
 
 ## Custom theme additions
 extra_javascript:
