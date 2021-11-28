@@ -11,3 +11,4 @@ Questa guida è raggiungibile [qui](https://opendatasicilia.github.io/ods-mkdocs
 
 ![GitHub issues](https://img.shields.io/github/issues/opendatasicilia/ods-mkdocs-material?color=blue)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed/opendatasicilia/ods-mkdocs-material?color=green)
+
