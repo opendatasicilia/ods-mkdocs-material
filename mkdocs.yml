@@ -98,7 +98,8 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:mermaid2.fence_mermaid
-- pymdownx.tabbed
+- pymdownx.tabbed:
+      alternate_style: true
 - pymdownx.critic:
       mode: view
 - pymdownx.betterem:
