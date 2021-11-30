@@ -31,6 +31,9 @@ extra:
     - icon: fontawesome/solid/rss
       link: ../feed_rss_created.xml
       name: Feed RSS
+    - icon: ods
+      link: http://opendatasicilia.it/
+      name: opendatasicilia.it  
 
 # Configuration
 theme:
