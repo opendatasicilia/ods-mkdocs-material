@@ -57,7 +57,7 @@ Risultato:
 
 ## Grafici
 
-È possibile generarli grazie al [modulo javascript Mermaid](https://mermaid-js.github.io/mermaid/#/) e al plugin Python `mkdocs-mermaid2-plugin`.
+È possibile generarli grazie al [Mermaid](https://mermaid-js.github.io/mermaid/#/), che dalla versione 8.2 di  Material for MkDocs è nativamente disponibile.
 
 Ad esempio con
 

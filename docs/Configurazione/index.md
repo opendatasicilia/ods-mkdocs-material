@@ -45,29 +45,13 @@ La pubblicazione del sito su pagine di GitHub (gh-pages) avviene in maniera auto
 
 ## Attivare grafici Mermaid
 
-Per attivare [questo tipo](https://opendatasicilia.github.io/ods-mkdocs-material/Riferimenti/formattazione/#grafici) di grafici è necessario:
-
-- installare il modulo Python `mkdocs-mermaid2-plugin`;
-    - se il sito è generato tramite GitHub Actions (come questo), aggiungerlo nei moduli da installare (vedi [qui](https://github.com/opendatasicilia/ods-mkdocs-material/blob/main/.github/workflows/gh-deploy.yml));
-- aggiungere al file di configurazione `mkdocs.yml` le seguenti istruzioni (parti evidenziate in giallo):
-
-``` hl_lines="3"
-extra_javascript:
-   - stylesheets/extra.js
-   - https://unpkg.com/mermaid/dist/mermaid.min.js
-```
-
+Per attivare [questo tipo](https://opendatasicilia.github.io/ods-mkdocs-material/Riferimenti/formattazione/#grafici) di grafici è necessario aggiungere al file di configurazione `mkdocs.yml` le seguenti istruzioni
 
 ``` hl_lines="8-11"
 markdown_extensions:
-- toc:
-        permalink: ↵
-- meta
-- mkdocs-click
-- pymdownx.highlight
-- pymdownx.superfences:
+  - pymdownx.superfences:
       custom_fences:
         - name: mermaid
           class: mermaid
-          format: !!python/name:mermaid2.fence_mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 ```
