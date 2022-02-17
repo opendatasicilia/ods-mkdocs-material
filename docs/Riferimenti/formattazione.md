@@ -57,7 +57,7 @@ Risultato:
 
 ## Grafici
 
-È possibile generarli grazie al [Mermaid](https://mermaid-js.github.io/mermaid/#/), che dalla versione 8.2 di  Material for MkDocs è nativamente disponibile.
+È possibile generarli grazie a [Mermaid](https://mermaid-js.github.io/mermaid/#/), che dalla versione [`8.2`](https://github.com/squidfunk/mkdocs-material/releases/tag/8.2.0) di  Material for MkDocs è nativamente disponibile.
 
 Ad esempio con
 
