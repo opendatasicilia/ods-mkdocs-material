@@ -33,7 +33,7 @@ extra:
       name: Feed RSS
     - icon: ods
       link: http://opendatasicilia.it/
-      name: opendatasicilia.it  
+      name: opendatasicilia.it
 
 # Configuration
 theme:
@@ -66,6 +66,7 @@ theme:
   # logo:
 
 plugins:
+- tags
 - search:
       lang: it
 #- mkdocstrings
@@ -95,12 +96,11 @@ markdown_extensions:
 - mkdocs-click
 - pymdownx.highlight
 - pymdownx.inlinehilite
-- pymdownx.superfences
 - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:mermaid2.fence_mermaid
+    custom_fences:
+      - name: mermaid
+        class: mermaid
+        format: !!python/name:pymdownx.superfences.fence_code_format
 - pymdownx.tabbed:
       alternate_style: true
 - pymdownx.critic:
