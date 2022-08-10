@@ -1,6 +1,6 @@
 ---
 hide:
-  - toc
+  - navigation
 title: "Pagina per fare test e debug"
 ---
 
