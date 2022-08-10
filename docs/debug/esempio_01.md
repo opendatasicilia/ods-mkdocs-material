@@ -6,7 +6,7 @@ title: "Pagina per fare test e debug"
 
 # Pagina per fare test e debug
 
-## Codice con nome file numero di linea
+## Blocco di codice, con nome file e numeri di linea
 
 ````
 ``` txt linenums="1" title="input_00.csv"
