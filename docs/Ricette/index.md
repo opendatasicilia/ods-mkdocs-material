@@ -231,3 +231,30 @@ si ottiene
 {% endblock %}
 
 ```
+
+## Come fare in modo che i caratteri che delimitano un blocco di codice restino visibili
+
+Normalmente, se si inserisce questo codice
+
+
+````
+``` bash
+echo "ciao"
+```
+````
+
+vengono rimossi i `` ``` `` (i *backtick*) presenti a inizio e fine  e si ha nella pagina soltanto
+
+``` bash
+echo "ciao"
+```
+
+Per fare in modo di lasciare visibili i `` ``` ``, come a inizio del paragrafo, in modo da mostrare la sintassi completa del blocco di codice, inserire tutto tra 4 *backtick*. Sotto un esempio:
+
+`````
+````
+``` bash
+echo "ciao"
+```
+````
+`````
