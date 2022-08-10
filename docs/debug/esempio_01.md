@@ -1,3 +1,9 @@
+---
+hide:
+  - toc
+title: "Pagina per fare test e debug"
+---
+
 # Pagina per fare test e debug
 
 ## Codice con nome file numero di linea
