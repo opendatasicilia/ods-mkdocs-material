@@ -202,10 +202,9 @@ theme:
 ## Come inserire stringhe con sintassi Jinja dentro blocchi di codice
 
 `Jinja` è il motore dei [template/temi di MkDocs](https://www.mkdocs.org/dev-guide/themes/). `Material` non usa di base `Jinja`, salvo che non sia caricato da qualche estensione, come la [`macros`](https://github.com/fralau/mkdocs_macros_plugin).<br>
-In questi casi, se si inserisce del codice Jinja nei file Markdown, anche dentro blocchi di codice, si hanno risultati inattesi, e bisogna fare come scritto sotto.<br>
-Altrimenti si può inserire serenamente dentro blocchi di codice.
+In questi casi, se si inserisce del codice Jinja nei file Markdown, anche dentro blocchi di codice, si hanno risultati inattesi, perché il codice viene interpretato.<br>
 
-Per fare in modo che non venga interpretato, bisogna fare l'escape, in [uno dei modi indicati qui](https://jinja.palletsprojects.com/en/3.0.x/templates/#escaping). Uno è circondare il tutto con `{% raw %}` e `{% endraw %}`, ovvero scrivendo il seguente codice nei file markdown
+Per fare in modo che non lo sia, bisogna fare l'escape, in [uno dei modi indicati qui](https://jinja.palletsprojects.com/en/3.0.x/templates/#escaping). Uno è circondare il tutto con `{% raw %}` e `{% endraw %}`, ovvero scrivendo il seguente codice nei file markdown
 
 ```` html
 ``` html
@@ -231,6 +230,10 @@ si ottiene
 {% endblock %}
 
 ```
+
+!!! Warning ""
+
+    Se in Material for MkDocs Insiders non sono installati plugin che interpretano il codice `Jinja`, non è necessario utilizzare alcun *escape* e il codice si può inserire per come è in un blocco di codice.
 
 ## Come fare in modo che i caratteri che delimitano un blocco di codice restino visibili
 
