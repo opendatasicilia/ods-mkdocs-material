@@ -231,7 +231,7 @@ si ottiene
 
 ```
 
-!!! Warning ""
+!!! Warning
 
     Se in Material for MkDocs Insiders non sono installati plugin che interpretano il codice `Jinja`, non è necessario utilizzare alcun *escape* e il codice si può inserire per come è in un blocco di codice.
 
