@@ -233,7 +233,7 @@ si ottiene
 
 !!! Warning
 
-    Se in Material for MkDocs Insiders non sono installati plugin che interpretano il codice `Jinja`, non è necessario utilizzare alcun *escape* e il codice si può inserire per come è in un blocco di codice.
+    Se in Material for MkDocs Insiders non sono installati plugin che interpretano il codice `Jinja`, non è necessario utilizzare alcun *escape*: la sintassi `Jinja` si può inserire in blocco di codice, per come è.
 
 ## Come fare in modo che i caratteri che delimitano un blocco di codice restino visibili
 
