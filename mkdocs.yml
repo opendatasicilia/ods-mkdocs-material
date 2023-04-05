@@ -46,6 +46,7 @@ theme:
     - navigation.tabs
     - content.code.annotate
     - navigation.tracking
+    - navigation.footer
 
   palette:
     - scheme: default
