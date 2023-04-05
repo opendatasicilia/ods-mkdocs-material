@@ -29,7 +29,7 @@ extra:
       link: https://github.com/opendatasicilia/ods-mkdocs-material
       name: Repoisitory GitHub
     - icon: fontawesome/solid/rss
-      link: ../feed_rss_created.xml
+      link: https://opendatasicilia.github.io/ods-mkdocs-material/feed_rss_created.xml
       name: Feed RSS
     - icon: ods
       link: http://opendatasicilia.it/
