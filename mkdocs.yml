@@ -133,7 +133,7 @@ markdown_extensions:
 ## Custom theme additions
 extra_javascript:
    - javascript/extra.js
-   - https://unpkg.com/mermaid/dist/mermaid.min.js
+#   - https://unpkg.com/mermaid/dist/mermaid.min.js
 
 extra_css:
    - stylesheets/extra.css
