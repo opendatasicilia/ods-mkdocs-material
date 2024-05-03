@@ -6,3 +6,4 @@ mkdocs-click
 Pygments>=2.4
 pymdown-extensions>=9.0
 mkdocs-rss-plugin
+mkdocs-glightbox
